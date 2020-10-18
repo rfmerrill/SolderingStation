@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "D:\Development\SolderingStation\Firmware\EWARM\settings\Firmware.Firmware.general.xcl" --backend -f "D:\Development\SolderingStation\Firmware\EWARM\settings\Firmware.Firmware.driver.xcl" 
+"E:\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "E:\SolderingStation\Firmware\EWARM\settings\Firmware.Firmware.general.xcl" --backend -f "E:\SolderingStation\Firmware\EWARM\settings\Firmware.Firmware.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "D:\Development\SolderingStation\Firmware\EWARM\settings\Firmware.Firmware.general.xcl" "--debug_file=%~1" --backend -f "D:\Development\SolderingStation\Firmware\EWARM\settings\Firmware.Firmware.driver.xcl" 
+"E:\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "E:\SolderingStation\Firmware\EWARM\settings\Firmware.Firmware.general.xcl" "--debug_file=%~1" --backend -f "E:\SolderingStation\Firmware\EWARM\settings\Firmware.Firmware.driver.xcl" 
 
 @echo off 
 :end
